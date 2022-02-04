@@ -42,14 +42,7 @@
                         @endif
                     </ul>
                 </li>
-                @if(Auth::check())
-                    @if(Auth::user()->hasRole('Manager')||Auth::user()->hasRole('Receptionist'))
-                        <li>
-                            <a href="{{url('admin')}}"><button class="btn btn-info">Admin</button></a>
-                        </li>
-                    @endif
-                @endif
-            </ul>
+                            </ul>
             <form class="d-flex">
                 <!--input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button-->
