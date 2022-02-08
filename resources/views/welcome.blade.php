@@ -23,9 +23,10 @@
 
     <div class="fullscreen">
 
-        <h1>Welcome To My Pleasure  Online shop Page</h1><br>
+        <h1>Welcome To My Pleasure(Online shop)Page</h1><br>
 
     </div>
+
 @endsection
 
 

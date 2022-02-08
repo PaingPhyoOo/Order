@@ -1,4 +1,4 @@
-<footer class="footer-area footer--light mt-3" style="background-color:hsl(100,23%,70%);">
+<footer class="footer-area footer--light mt-3" style="background-color:hsla(117,30%,50%);">
     <div class="footer">
         <!-- start .container -->
         <div class="container d-flex justify-content-center">

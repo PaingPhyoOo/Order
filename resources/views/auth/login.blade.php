@@ -1,21 +1,8 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"  />
 
 <!-- font awesome  -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
 
-<style>
-    h1{
-        animation-duration: 5s;
-        animation-name: a;
-        color:hsl(159,130%,30%) ;
-    }
-    @keyframes a {
-        0%{color: royalblue;}
-        25%{color: orangered;}
-        50%{color: yellow;}
-        100%{color:indianred;}
-    }
-</style>
 <script>
     function password_show_hide() {
         let x = document.getElementById("password");
