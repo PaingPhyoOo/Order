@@ -29,9 +29,8 @@ class CustomauthController extends Controller
                 ->withSuccess('Signed in');
         }
 
-        return redirect("/")->withSuccess('Login details are not valid');
+        return redirect("user/login")->withSuccess('Login details are not valid');
     }
-
 
 
     public function registration()

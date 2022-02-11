@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomauthController;
+use App\Http\Middleware\Manager;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,3 +24,11 @@ Route::get('user/register',[CustomauthController::class, 'registration'])->name(
 Route::post('user/register',[CustomauthController::class, 'customRegistration'])->name('register.custom');
 
 Route::get('user/logout',[CustomauthController::class, 'signOut'])->name('signout');
+
+Route::group(array('prefix'=>'admin','namespace'=>'admin','middleware'=>'Manager'),function (){
+    Route::get('users',[\App\Http\Controllers\Admin\User::class,'index'])->name('index');
+
+    Route::get('roles',[\App\Http\Controllers\RoleController::class,'index'])->name('index');
+    Route::get('role/create',[\App\Http\Controllers\RoleController::class,'create'])->name('create');
+    Route::post('role/create',[\App\Http\Controllers\RoleController::class,'store'])->name('store');
+});

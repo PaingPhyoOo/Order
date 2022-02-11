@@ -35,9 +35,8 @@
                     <p class="alert alert-danger">{!! $answer !!}}</p>
                 @endforeach
 
-                <div class="form-group">
+                <div class="form-group mt-2">
                     <div class="input-group">
-
                         <input type="email" class="form-control" id="email" name="email">
                         <span class="input-group-text">Email</span>
                     </div>
