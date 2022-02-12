@@ -12,7 +12,6 @@
         height: 50px;
     }
 
-
         h1 {
             background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
             background-size: cover;
@@ -104,18 +103,17 @@
     <p style="text-indent: 20px;font-size:xx-large;font-weight: normal;text-decoration: underline">Details</p>
 
     <div class="container row">
-    <div class="card border-warning" style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,51);">
+  <div class="card  border-warning" style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,51);">
 
-        <img style="width: 100px;height: 120px;margin-top: 5px" src="{{asset('images/birthday cake.jpg')}}" alt="...">
+        <img style="width: 210px;height: 170px;margin-top: 5px" src="{{asset('images/birthday cake.jpg')}}" alt="...">
         <div class="card-body" style="color: rgb(171,163,9);">
         <p style="font-size: large;text-align: center;" class="card-title">Cake</p>
             <div style="text-align: center;">
-        <div class="card-text" style="font-size: medium">Price =15000kyats
-        </div>
                 <div class="card-text" style="font-size: medium">Type = Birthday Cake
                 </div>
                 <div class="card-text" style="font-size: medium">Size = 10 inches
                 </div>
+                <div class="card-text" style="font-size: medium">Price =15000kyats</div>
 
 
             </div>
@@ -123,20 +121,40 @@
         </div>
     </div>
 
-        <div class="card  offset-1 border-warning " style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card offset-2  border-warning " style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 100px;height: 120px;margin-top: 5px" src="{{asset('images/comic.jpg')}}" alt="...">
+            <img style="width: 210px;height: 170px;margin-top: 5px" src="{{asset('images/comic.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
                     <div class="card-text" style="font-size: medium">Book Name = Thief
                     </div>
 
-                    <div class="card-text" style="font-size: medium">Price = 5000kyats</div>
                     <div class="card-text" style="font-size: medium">
                         Author = A Kyi Taw</div>
+                    <div class="card-text" style="font-size: medium">Price = 5000kyats</div>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="card offset-2 border-warning " style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+
+            <img style="width: 210px;height: 170px;margin-top: 5px" src="{{asset('images/anni cake.jpg')}}" alt="...">
+            <div class="card-body" style="color: rgb(171,163,9)">
+                <p style="font-size: large;text-align: center" class="card-title">Cake</p>
+                <div style="text-align: center;">
+                    <div class="card-text" style="font-size: medium">Type = Anniversary Cake
+                    </div>
+
                     <div class="card-text" style="font-size: medium">
-                        </div>
+                        Size = 12 inches </div>
+                    <div class="card-text" style="font-size: medium">Price = 18000kyats</div>
+
 
 
                 </div>
@@ -144,7 +162,10 @@
             </div>
 
         </div>
+
     </div>
+
+
 
     <div class="card bg-light mt-2 border-info" style="height: 10rem;font-family: sans-serif;font-size:xx-large;">
         <div class="card-body">
