@@ -17,6 +17,13 @@ use App\Http\Middleware\Manager;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('show/categories', function () {
+    return view('creating/categories');
+});
+Route::get('show/detail', function () {
+    return view('creating/detail');
+});
+
 Route::get('user/login',[\App\Http\Controllers\CustomauthController::class,'index'])->name('login');
 
 Route::post('user/login',[\App\Http\Controllers\CustomauthController::class,'customLogin'])->name('login.custom');
@@ -25,7 +32,7 @@ Route::post('user/register',[CustomauthController::class, 'customRegistration'])
 
 Route::get('user/logout',[CustomauthController::class, 'signOut'])->name('signout');
 
-Route::group(array('prefix'=>'admin','namespace'=>'admin','middleware'=>'Manager'),function (){
+Route::group(array('prefix'=>'admin','namespace'=>'admin','middleware'=>'auth'),function (){
     Route::get('users',[\App\Http\Controllers\Admin\User::class,'index'])->name('index');
 
     Route::get('roles',[\App\Http\Controllers\RoleController::class,'index'])->name('index');

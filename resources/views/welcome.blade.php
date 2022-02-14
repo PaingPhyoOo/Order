@@ -8,8 +8,8 @@
         text-decoration: underline;
     }
     img{
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
     }
 
         h1 {
@@ -27,7 +27,7 @@
     </style>
 
     <div class="fullscreen">
-        <h1>Welcome To My Pleasure(Online shop)Page</h1><br>
+        <h1>Welcome To Pleasure(Online shop)Page</h1><br>
     </div>
 
 
@@ -46,7 +46,7 @@
         </div>
     </div>
 
-    <div class="card bg-light mt-2 border-info" style="height: 33rem;font-family: sans-serif;font-size:xx-large;">
+    <div class="card bg-light mt-2 border-info" style="height: 36rem;font-family: sans-serif;font-size:xx-large;">
         <div class="card-body">
             <p class="card-title">Categories</p>
             <h3 class="card-subtitle text-muted">
@@ -64,16 +64,20 @@
             <table class="table table-bordered">
                 <thead class="table-info">
                 <tr  style="font-size: small">
-                    <th>Anniversary Cake</th>
-                    <th> Wedding Cake</th>
-                    <th> Birthday Cake</th>
+                    <th>Fruits Cake</th>
+
+                    <th> Crepe Cake</th>
+                    <th> Chocolate Cake</th>
+                    <th>Funfetti Cake</th>
                 </tr>
                 </thead>
                 <tbody class="table-success">
                 <tr>
                     <td><img src="{{asset('images/anni cake.jpg')}}" alt="cake1"></td>
-                    <td><img src="{{asset('images/anni cake1.jpg')}}" alt="cake2"></td>
+
+                    <td><img src="{{asset('images/ce1.jpg')}}" alt="cake3"></td>
                     <td><img src="{{asset('images/birthday cake.jpg')}}" alt="cake3"></td>
+                    <td><img src="{{asset('images/fun1.jpg')}}" alt="cake3"></td>
 
                 </tr>
                 </tbody>
@@ -82,16 +86,21 @@
             <table class="table table-bordered">
                 <thead class="table-info">
                 <tr  style="font-size: small">
-                    <th>Romance book</th>
-                    <th> Comic book</th>
-                    <th> Biography book</th>
+                    <th>Novel</th>
+                    <th> Cartoon book</th>
+                    <th>Biography Book</th>
+                    <th>Stories For Children</th>
+                    <th>Poem Book</th>
+
                 </tr>
                 </thead>
                 <tbody class="table-success">
                 <tr>
-                    <td><img src="{{asset('images/romance.jpg')}}" alt="cake1"></td>
-                    <td><img src="{{asset('images/comic.jpg')}}" alt="cake2"></td>
-                    <td><img src="{{asset('images/biography.jpg')}}" alt="cake3"></td>
+                    <td><img src="{{asset('images/comic.jpg')}}" alt="book1"></td>
+                    <td><img src="{{asset('images/b1.jpg')}}" alt="book2"></td>
+                    <td><img src="{{asset('images/biography.jpg')}}" alt="book3"></td>
+                    <td><img src="{{asset('images/d1.jpg')}}" alt="book4"></td>
+                    <td><img src="{{asset('images/e1.jpg')}}" alt="book5"></td>
 
                 </tr>
                 </tbody>

@@ -6,7 +6,7 @@
                 <div class="footer-widget">
                     <div class="widget-about">
 
-                        <p style="font-size:20px; display:inline">Welcome to Brillian Hotel</p>
+                        <p style="font-size:20px; display:inline">Welcome to Soyez heureux(Gateaux et Livres)Page</p>
                         <ul class="contact-details">
 
                             <li>

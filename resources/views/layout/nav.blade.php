@@ -14,9 +14,6 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold">
     <div class="container-fluid">
-        <h2  class="navbar-brand mt-2">
-            Home
-           </h2>
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,11 +34,14 @@
                 </ul>
             </li-->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Categories</a>
+                    <a class="nav-link" href="{{url('/')}}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url('show/categories')}}">Categories</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Details</a>
+                    <a class="nav-link" href="{{url('show/detail')}}">Details</a>
                 </li>
 
 
