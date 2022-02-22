@@ -32,8 +32,12 @@ Route::post('user/register',[CustomauthController::class, 'customRegistration'])
 
 Route::get('user/logout',[CustomauthController::class, 'signOut'])->name('signout');
 
-Route::group(array('prefix'=>'admin','namespace'=>'admin','middleware'=>'auth'),function (){
+Route::group(array('prefix'=>'admin','namespace'=>'admin','middleware'=>'Manager'),function (){
+    Route::get('/',[\App\Http\Controllers\Admin\AdminController::class,'index'])->name('index');
+
     Route::get('users',[\App\Http\Controllers\Admin\User::class,'index'])->name('index');
+    Route::get('user/{id}/edit',[\App\Http\Controllers\Admin\User::class,'edit'])->name('edit');
+    Route::post('user/{id}/edit',[\App\Http\Controllers\Admin\User::class,'update'])->name('update');
 
     Route::get('roles',[\App\Http\Controllers\RoleController::class,'index'])->name('index');
     Route::get('role/create',[\App\Http\Controllers\RoleController::class,'create'])->name('create');

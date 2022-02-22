@@ -14,7 +14,7 @@
                 @foreach($user as $users)
                     <tr class="table-info">
                         <td>{{$users->id}}</td>
-                        <td>{{$users->name}}</td>
+                        <td><a href="{{action('App\Http\Controllers\Admin\User@edit',$users->id)}}">{{$users->name}}</td>
                         <td>{{$users->email}}</td>
                     </tr>
                 @endforeach

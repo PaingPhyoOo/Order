@@ -27,7 +27,7 @@
     </style>
 
     <div class="fullscreen">
-        <h1>Welcome To Pleasure(Online shop)Page</h1><br>
+        <h1>Welcome To Pleasures(Cake and Book)OnlineShop Page</h1><br>
     </div>
 
 
@@ -118,7 +118,7 @@
         <div class="card-body" style="color: rgb(171,163,9);">
         <p style="font-size: large;text-align: center;" class="card-title">Cake</p>
             <div style="text-align: center;">
-                <div class="card-text" style="font-size: medium">Type = Birthday Cake
+                <div class="card-text" style="font-size: medium">Type = Chocolate Cake
                 </div>
                 <div class="card-text" style="font-size: medium">Size = 10 inches
                 </div>
@@ -153,11 +153,11 @@
         </div>
         <div class="card offset-2 border-warning " style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 210px;height: 170px;margin-top: 5px" src="{{asset('images/anni cake.jpg')}}" alt="...">
+            <img style="width: 213px;height: 170px;margin-top: 5px;margin-right: 5px;" src="{{asset('images/anni cake.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
-                    <div class="card-text" style="font-size: medium">Type = Anniversary Cake
+                    <div class="card-text" style="font-size: medium">Type = Fruits Cake
                     </div>
 
                     <div class="card-text" style="font-size: medium">
