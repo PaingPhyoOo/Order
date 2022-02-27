@@ -32,10 +32,26 @@ Route::post('user/register',[CustomauthController::class, 'customRegistration'])
 
 Route::get('user/logout',[CustomauthController::class, 'signOut'])->name('signout');
 
+Route::get('order/cake',[\App\Http\Controllers\CakeController::class,'order'])->name('order');
+Route::post('order/cake',[\App\Http\Controllers\CakeController::class,'store'])->name('store');
+
+Route::get('order/book',[\App\Http\Controllers\BookController::class,'order'])->name('order');
+Route::post('order/book',[\App\Http\Controllers\BookController::class,'store'])->name('store');
+
+Route::get('customers for book ',[\App\Http\Controllers\BookController::class,'show'])->name('show');
+
+Route::get('customers for cake ',[\App\Http\Controllers\CakeController::class,'show'])->name('show');
+
 Route::group(array('prefix'=>'admin','namespace'=>'admin','middleware'=>'auth'),function (){
+    Route::get('/',[\App\Http\Controllers\Admin\AdminController::class,'index'])->name('index');
+
     Route::get('users',[\App\Http\Controllers\Admin\User::class,'index'])->name('index');
+    Route::get('user/{id}/edit',[\App\Http\Controllers\Admin\User::class,'edit'])->name('edit');
+    Route::post('user/{id}/edit',[\App\Http\Controllers\Admin\User::class,'update'])->name('update');
 
     Route::get('roles',[\App\Http\Controllers\RoleController::class,'index'])->name('index');
     Route::get('role/create',[\App\Http\Controllers\RoleController::class,'create'])->name('create');
     Route::post('role/create',[\App\Http\Controllers\RoleController::class,'store'])->name('store');
+
+
 });

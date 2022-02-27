@@ -27,7 +27,7 @@
     </style>
 
     <div class="fullscreen">
-        <h1>Welcome To Soyez heureux(Gateaux et Livres)Page</h1><br>
+        <h1>Welcome To Pleasures(Cake and Book)OnlineShop Page</h1><br>
     </div>
 
     <h3 style="text-indent: 10px;text-decoration: underline;color:rgb(67, 173, 5) ">Available Cake</h3>
@@ -37,19 +37,19 @@
     <img src="{{asset('images/birthday cake.jpg')}}" alt="cake3">
     <img src="{{asset('images/fun1.jpg')}}" alt="cake3">
 
-    <img src="{{asset('images/f1.jpg')}}" alt="cake1">
-    <img src="{{asset('images/ce1.jpg')}}" alt="cake3">
+    <img src="{{asset('images/f6.jpg')}}" alt="cake1">
+    <img src="{{asset('images/f1.jpg')}}" alt="cake3">
     <img src="{{asset('images/ch3.jpg')}}" alt="cake3">
     <img src="{{asset('images/fun2.jpg')}}" alt="cake3">
 
-    <img src="{{asset('images/f2.jpg')}}" alt="cake1">
-    <img src="{{asset('images/ce1.jpg')}}" alt="cake3">
-    <img src="{{asset('images/ch5.jpg')}}" alt="cake3">
+    <img src="{{asset('images/f5.jpg')}}" alt="cake1">
+    <img src="{{asset('images/f2.jpg')}}" alt="cake3">
+    <img src="{{asset('images/ch4.jpg')}}" alt="cake3">
     <img src="{{asset('images/fun3.jpg')}}" alt="cake3">
 
     <img src="{{asset('images/f8.jpg')}}" alt="cake1">
-    <img src="{{asset('images/ce1.jpg')}}" alt="cake3">
-    <img src="{{asset('images/ch5.jpg')}}" alt="cake3">
+    <img src="{{asset('images/f3.jpg')}}" alt="cake3">
+    <img src="{{asset('images/ch2.jpg')}}" alt="cake3">
     <img src="{{asset('images/fun4.jpg')}}" alt="cake3">
 
     <img src="{{asset('images/f7.jpg')}}" alt="cake1">
@@ -114,14 +114,14 @@
                 </tr>
                 <tr>
                     <td><img src="{{asset('images/f5.jpg')}}" alt="cake1"></td>
-                    <td><img src="{{asset('images/anni cake1.jpg')}}" alt="cake2"></td>
+                    <td><img src="{{asset('images/f1.jpg')}}" alt="cake2"></td>
                     <td><img src="{{asset('images/ch1.jpg')}}" alt="cake3"></td>
                     <td><img src="{{asset('images/fun2.jpg')}}" alt="cake3"></td>
 
                 </tr>
                 <tr>
                     <td><img src="{{asset('images/f6.jpg')}}" alt="cake1"></td>
-                    <td><img src="{{asset('images/anni cake1.jpg')}}" alt="cake2"></td>
+                    <td><img src="{{asset('images/f2.jpg')}}" alt="cake2"></td>
                     <td><img src="{{asset('images/ch2.jpg')}}" alt="cake3"></td>
                     <td><img src="{{asset('images/fun3.jpg')}}" alt="cake3"></td>
 

@@ -41,7 +41,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('show/detail')}}">Details</a>
+                    <a class="nav-link" href="{{url('show/detail')}}">Detail</a>
                 </li>
 
 
@@ -64,7 +64,14 @@
                         @endif
                     </ul>
                 </li>
-                            </ul>
+                @if(Auth::check())
+                   @if(Auth::user()->hasRole('Admin(1)'))
+                    <li>
+                        <a href="{{url('admin')}}"><button class="btn btn-primary">Admin</button></a>
+                    </li>
+                    @endif
+                    @endif
+            </ul>
             <form class="d-flex">
                 <!--input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button-->
