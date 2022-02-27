@@ -49,13 +49,13 @@
                     <h3>Cake Order</h3>
                     <a href="{{url('customers for cake')}}">
                         <button class="btn btn-primary">
-                            All Customer for Cake Order
+                            All Customer for Cakes Order
                         </button>
                     </a>
                     <h3>Book Order</h3>
                     <a href="{{url('customers for book')}}">
                         <button class="btn btn-primary">
-                            All Customer for Book Order
+                            All Customer for Books Order
                         </button>
                     </a>
 
