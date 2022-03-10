@@ -1,7 +1,7 @@
 @extends('layout.master')
 @section('title','show all Roles')
 @section('content')
-    <div class="container col-md-8 col-md-offset-2">
+    <div class="container mt-3 col-md-8 col-md-offset-2">
         <div class="card card-body bg-light">
             <table class="table table-bordered table-striped table-dark">
                 <thead class="table-info">

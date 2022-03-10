@@ -112,7 +112,7 @@
     <p style="text-indent: 20px;font-size:xx-large;font-weight: normal;text-decoration: underline">Details</p>
 
     <div class="container row">
-  <div class="card  border-warning" style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,51);">
+  <div class="card border-warning" style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,51);">
 
         <img style="width: 210px;height: 170px;margin-top: 5px" src="{{asset('images/birthday cake.jpg')}}" alt="...">
         <div class="card-body" style="color: rgb(171,163,9);">
@@ -130,7 +130,7 @@
         </div>
     </div>
 
-        <div class="card offset-2  border-warning " style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  offset-1 border-warning " style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 210px;height: 170px;margin-top: 5px" src="{{asset('images/comic.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
@@ -151,7 +151,7 @@
             </div>
 
         </div>
-        <div class="card offset-2 border-warning " style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card offset-1 border-warning " style="width:15rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 213px;height: 170px;margin-top: 5px;margin-right: 5px;" src="{{asset('images/anni cake.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">

@@ -85,7 +85,7 @@
     <div  id="b" class="row">
     <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-        <img style="width: 217px;height: 170px;margin: 10px 7px" src="{{asset('images/f10.jpg')}}" alt="...">
+        <img style="width: 217px;height: 170px;margin: 10px 3px" src="{{asset('images/f10.jpg')}}" alt="...">
         <div class="card-body" >
             <p style="font-size: large;text-align: center" class="card-title">Cake</p>
             <div style="text-align: center;">
@@ -105,7 +105,7 @@
     </div>
         <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 7px" src="{{asset('images/f4.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 3px" src="{{asset('images/f4.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -125,7 +125,7 @@
         </div>
         <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 7px" src="{{asset('images/f5.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 3px" src="{{asset('images/f5.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -145,7 +145,7 @@
         </div>
         <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 7px" src="{{asset('images/f6.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 3px" src="{{asset('images/f6.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -165,7 +165,7 @@
         </div>
         <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 7px" src="{{asset('images/f9.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 3px" src="{{asset('images/f9.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
