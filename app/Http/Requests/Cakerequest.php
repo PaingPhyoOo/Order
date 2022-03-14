@@ -25,9 +25,9 @@ class Cakerequest extends FormRequest
     {
         return [
             'name'=>'required',
-            'tel'=>'required',
-            'adss'=>'required',
-            'ctype'=>'required'
+            'telephone'=>'required',
+            'address'=>'required',
+            'type_of_cake'=>'required'
         ];
     }
 }

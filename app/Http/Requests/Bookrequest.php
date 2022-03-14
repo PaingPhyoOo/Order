@@ -25,9 +25,9 @@ class Bookrequest extends FormRequest
     {
         return [
             'name'=>'required',
-            'tel'=>'required',
-            'adss'=>'required',
-            'bname'=>'required'
+            'telephone'=>'required',
+            'address'=>'required',
+            'book_name'=>'required'
         ];
     }
 }

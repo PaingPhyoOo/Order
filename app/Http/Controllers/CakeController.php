@@ -14,9 +14,9 @@ class CakeController extends Controller
     public function store(Cakerequest  $request){
         Cake::create([
             'name'=>$request->get('name'),
-            'tel_no'=>$request->get('tel'),
-            'address'=>$request->get('adss'),
-            'cake_type'=>$request->get('ctype'),
+            'tel_no'=>$request->get('telephone'),
+            'address'=>$request->get('address'),
+            'cake_type'=>$request->get('type_of_cake'),
         ]);
         return redirect('order/cake')->with('status','Your order have been successfully');
     }

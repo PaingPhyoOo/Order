@@ -26,21 +26,21 @@
                 </div>
                 <div class="form-group mt-2">
                     <div class="input-group">
-                        <input type="text" class="form-control" id="username" name="tel">
+                        <input type="text" class="form-control" id="username" name="telephone">
                         <div class="input-group-text">Tel_No</div>
                     </div>
 
                 </div>
                 <div class="form-group mt-2">
                     <div class="input-group">
-                        <input type="text" class="form-control" id="username" name="adss" placeholder="Address">
+                        <input type="text" class="form-control" id="username" name="address" placeholder="Address">
                         <div class="input-group-text">Address</div>
                     </div>
 
                 </div>
                 <div class="form-group mt-2">
                     <div class="input-group">
-                        <input type="text" class="form-control" id="username" name="bname" placeholder="Book Name">
+                        <input type="text" class="form-control" id="username" name="book_name" placeholder="Book Name">
                         <div class="input-group-text">Book Name</div>
                     </div>
 

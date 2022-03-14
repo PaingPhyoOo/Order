@@ -13,9 +13,9 @@ class BookController extends Controller
     public function store(Bookrequest $request){
         Book::create([
             'name'=>$request->get('name'),
-            'tel_no'=>$request->get('tel'),
-            'address'=>$request->get('adss'),
-            'book_name'=>$request->get('bname')
+            'tel_no'=>$request->get('telephone'),
+            'address'=>$request->get('address'),
+            'book_name'=>$request->get('book_name')
         ]);
         return redirect('order/book')->with('status','Your order have been successfully');
     }
