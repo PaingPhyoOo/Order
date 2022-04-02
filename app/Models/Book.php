@@ -11,4 +11,19 @@ class Book extends Model
     protected $fillable=[
         'name','tel_no','address','book_name'
     ];
+    public function setCatAttribute($value)
+
+    {
+
+        $this->attributes['book_name'] = json_encode($value);
+
+    }
+    public function getCatAttribute($value)
+
+    {
+
+        return $this->attributes['book_name'] = json_decode($value);
+
+    }
+  
 }

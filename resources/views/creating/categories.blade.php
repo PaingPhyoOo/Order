@@ -31,29 +31,32 @@
     </div>
 
     <h3 style="text-indent: 10px;text-decoration: underline;color:rgb(67, 173, 5) ">Available Cake</h3>
-    <img src="{{asset('images/anni cake.jpg')}}" alt="cake1">
+    <img src="{{asset('images/anni cake.jpg')}}">
 
-    <img src="{{asset('images/ce1.jpg')}}" alt="cake3">
-    <img src="{{asset('images/birthday cake.jpg')}}" alt="cake3">
-    <img src="{{asset('images/fun1.jpg')}}" alt="cake3">
+    <img src="{{asset('images/ce1.jpg')}}" >
+    <img src="{{asset('images/birthday cake.jpg')}}">
+    <img src="{{asset('images/fun1.jpg')}}" >
 
-    <img src="{{asset('images/f6.jpg')}}" alt="cake1">
-    <img src="{{asset('images/f1.jpg')}}" alt="cake3">
-    <img src="{{asset('images/ch3.jpg')}}" alt="cake3">
-    <img src="{{asset('images/fun2.jpg')}}" alt="cake3">
+    <img src="{{asset('images/f6.jpg')}}">
+    <img src="{{asset('images/f1.jpg')}}">
+    <img src="{{asset('images/ch3.jpg')}}">
+    <img src="{{asset('images/fun2.jpg')}}">
 
-    <img src="{{asset('images/f5.jpg')}}" alt="cake1">
-    <img src="{{asset('images/f2.jpg')}}" alt="cake3">
-    <img src="{{asset('images/ch4.jpg')}}" alt="cake3">
-    <img src="{{asset('images/fun3.jpg')}}" alt="cake3">
+    <img src="{{asset('images/f5.jpg')}}">
+    <img src="{{asset('images/f2.jpg')}}">
+    <img src="{{asset('images/ch4.jpg')}}">
+    <img src="{{asset('images/fun3.jpg')}}">
 
-    <img src="{{asset('images/f8.jpg')}}" alt="cake1">
-    <img src="{{asset('images/f3.jpg')}}" alt="cake3">
-    <img src="{{asset('images/ch2.jpg')}}" alt="cake3">
-    <img src="{{asset('images/fun4.jpg')}}" alt="cake3">
+    <img src="{{asset('images/f8.jpg')}}">
+    <img src="{{asset('images/f3.jpg')}}">
+    <img src="{{asset('images/ch2.jpg')}}">
+    <img src="{{asset('images/fun4.jpg')}}">
 
-    <img src="{{asset('images/f7.jpg')}}" alt="cake1">
-    <img src="{{asset('images/ch5.jpg')}}" alt="cake3">
+    <img src="{{asset('images/f7.jpg')}}">
+    <img src="{{asset('images/ch5.jpg')}}">
+    <img src="{{asset('images/add5.jpg')}}">
+    <img src="{{asset('images/add4.jpg')}}">
+    <img src="{{asset('images/add3.jpg')}}">
 
 
     <h3 style="text-indent: 10px;text-decoration: underline;color:rgb(67, 173, 5)">Available Book</h3>
@@ -78,6 +81,8 @@
     <img src="{{asset('images/a5.jpg')}}" alt="book1">
     <img src="{{asset('images/b9.jpg')}}" alt="book2">
     <img src="{{asset('images/c4.jpg')}}" alt="book3">
+    <img src="{{asset('images/e4.jpg')}}" alt="book4">
+    <img src="{{asset('images/add2.jpg')}}" alt="book5">
 
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">

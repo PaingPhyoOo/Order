@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomauthController;
 use App\Http\Middleware\Manager;
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,7 +40,7 @@ Route::get('order/book',[\App\Http\Controllers\BookController::class,'order'])->
 Route::post('order/book',[\App\Http\Controllers\BookController::class,'store'])->name('store');
 
 Route::get('customers for book ',[\App\Http\Controllers\BookController::class,'show'])->name('show');
-
+Route::get('sending mail ',[\App\Http\Controllers\MailController::class,'sendingEmail'])->name('sendingEmail');
 Route::get('customers for cake ',[\App\Http\Controllers\CakeController::class,'show'])->name('show');
 
 Route::group(array('prefix'=>'admin','namespace'=>'admin','middleware'=>'auth'),function (){

@@ -29,8 +29,8 @@
 @extends('layout.master')
 @section('title','For only Admin')
 @section('content')
-    <div class="row">
-        <div class="col-md-8 offset-1 mt-4">
+    <div class="container">
+        <div class="col-md-8 offset-2 mt-4">
             <div class="card card-body bg-light">
                 <div class="forUser">
                     <h3>
@@ -62,5 +62,5 @@
                 </div>
             </div>
         </div>
-
+</div>
 @endsection

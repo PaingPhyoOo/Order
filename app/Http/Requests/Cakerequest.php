@@ -27,7 +27,7 @@ class Cakerequest extends FormRequest
             'name'=>'required',
             'telephone'=>'required',
             'address'=>'required',
-            'type_of_cake'=>'required'
+            'cake_type'=>'required'
         ];
     }
 }

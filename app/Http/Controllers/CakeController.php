@@ -12,11 +12,18 @@ class CakeController extends Controller
         return view('order.cake');
     }
     public function store(Cakerequest  $request){
+        $ctype=$request->get('cake_type');
+        $b=array();
+        foreach($ctype as $cake){
+            array_push($b,$cake);
+        }
+        
         Cake::create([
             'name'=>$request->get('name'),
             'tel_no'=>$request->get('telephone'),
             'address'=>$request->get('address'),
-            'cake_type'=>$request->get('type_of_cake'),
+            'cake_type'=>serialize($b),
+            
         ]);
         return redirect('order/cake')->with('status','Your order have been successfully');
     }

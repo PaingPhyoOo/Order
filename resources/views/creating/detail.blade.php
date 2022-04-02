@@ -75,14 +75,14 @@
 
     </div>
 
-    <h3 id="b" style="color:rgb(171,163,9);text-indent: 10px;margin: 10px 0 10px 0; ">Fruits Cake</h3>
+    <h3 id="b" style="color:rgb(171,163,9);margin: 10px  20px  ;">Fruits Cake</h3>
 
 
     
 
 
 
-    <div  id="b" class="row ">
+    <div  id="b" class="container row ">
     <div class=" card border-warning  " style="width:16rem;font-family: sans-serif;margin: 0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
         <img style="width: 217px;height: 170px;margin:10px 7px  " src="{{asset('images/f10.jpg')}}" alt="...">
@@ -103,7 +103,7 @@
         </div>
 
     </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 7px" src="{{asset('images/f4.jpg')}}" alt="...">
             <div class="card-body">
@@ -123,7 +123,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 7px" src="{{asset('images/f5.jpg')}}" alt="...">
             <div class="card-body">
@@ -143,7 +143,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 7px" src="{{asset('images/f6.jpg')}}" alt="...">
             <div class="card-body">
@@ -163,7 +163,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 6px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px" src="{{asset('images/f9.jpg')}}" alt="...">
             <div class="card-body">
@@ -183,16 +183,36 @@
             </div>
 
         </div>
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+
+            <img style="width: 217px;height: 170px;margin: 10px 5px" src="{{asset('images/f1.jpg')}}" alt="...">
+            <div class="card-body">
+                <p style="font-size: large;text-align: center" class="card-title">Cake</p>
+                <div style="text-align: center;">
+                    <div class="card-text" style="font-size: medium">Type = Fruits Cake(6)
+                    </div>
+
+                    <div class="card-text" style="font-size: medium">
+                        Size = 12 inches </div>
+                    <div class="card-text" style="font-size: medium">Price = 18000kyats</div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
 </div>
-<h3 style="text-indent: 10px;margin: 10px 0 10px 0;color:rgb(171,163,9)">Fruits Cake</h3>
-    <div class="row">
+<h3 style="margin: 10px  20px ;color:rgb(171,163,9)">Fruits Cake</h3>
+    <div class="container row">
     <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
         <img style="width: 217px;height: 160px;margin: 10px 5px;" src="{{asset('images/f3.jpg')}}" alt="...">
         <div class="card-body" style="color: rgb(171,163,9)">
             <p style="font-size: large;text-align: center" class="card-title">Cake</p>
             <div style="text-align: center;">
-                <div class="card-text" style="font-size: medium">Type = Fruits Cake(6)
+                <div class="card-text" style="font-size: medium">Type = Fruits Cake(7)
                 </div>
 
                 <div class="card-text" style="font-size: medium">
@@ -207,29 +227,9 @@
 
     </div>
 
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 160px;margin: 10px 5px " src="{{asset('images/f7.jpg')}}" alt="...">
-            <div class="card-body" style="color: rgb(171,163,9)">
-                <p style="font-size: large;text-align: center" class="card-title">Cake</p>
-                <div style="text-align: center;">
-                    <div class="card-text" style="font-size: medium">Type = Fruits Cake(7)
-                    </div>
-
-                    <div class="card-text" style="font-size: medium">
-                        Size = 10 inches </div>
-                    <div class="card-text" style="font-size: medium">Price = 15000kyats</div>
-
-
-
-                </div>
-
-            </div>
-
-        </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
-
-            <img style="width: 217px;height: 160px;margin: 10px 5px " src="{{asset('images/ch1.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -249,11 +249,31 @@
         </div>
         <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/f2.jpg')}}" alt="...">
+            <img style="width: 217px;height: 160px;margin: 10px 5px " src="{{asset('images/ch1.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
                     <div class="card-text" style="font-size: medium">Type = Fruits Cake(9)
+                    </div>
+
+                    <div class="card-text" style="font-size: medium">
+                        Size = 10 inches </div>
+                    <div class="card-text" style="font-size: medium">Price = 15000kyats</div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+
+            <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/f2.jpg')}}" alt="...">
+            <div class="card-body" style="color: rgb(171,163,9)">
+                <p style="font-size: large;text-align: center" class="card-title">Cake</p>
+                <div style="text-align: center;">
+                    <div class="card-text" style="font-size: medium">Type = Fruits Cake(10)
                     </div>
 
                     <div class="card-text" style="font-size: medium">
@@ -267,13 +287,33 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/f8.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
-                    <div class="card-text" style="font-size: medium">Type = Fruits Cake(10)
+                    <div class="card-text" style="font-size: medium">Type = Fruits Cake(11)
+                    </div>
+
+                    <div class="card-text" style="font-size: medium">
+                        Size = 10 inches </div>
+                    <div class="card-text" style="font-size: medium">Price = 15000kyats</div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin: 5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+
+            <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/add5.jpg')}}" alt="...">
+            <div class="card-body" style="color: rgb(171,163,9)">
+                <p style="font-size: large;text-align: center" class="card-title">Cake</p>
+                <div style="text-align: center;">
+                    <div class="card-text" style="font-size: medium">Type = Fruits Cake(12)
                     </div>
 
                     <div class="card-text" style="font-size: medium">
@@ -289,11 +329,11 @@
         </div>
 
     </div>
-    <h3 id="b" style="margin: 10px  10px ;color: rgb(171,163,9)">Crepe Cake</h3>
-    <div id="b" class="row">
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+    <h3 id="b" style="margin: 10px  20px ;color: rgb(171,163,9)">Crepe Cake</h3>
+    <div id="b" class="container row">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 9px " src="{{asset('images/ce1.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 7px " src="{{asset('images/ce1.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -311,7 +351,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/f1.jpg')}}" alt="...">
             <div class="card-body">
@@ -331,7 +371,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/f2.jpg')}}" alt="...">
             <div class="card-body">
@@ -351,9 +391,9 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 9px " src="{{asset('images/ce2.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 7px " src="{{asset('images/ce2.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -371,7 +411,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/ce3.jpg')}}" alt="...">
             <div class="card-body">
@@ -391,11 +431,31 @@
             </div>
 
         </div>
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+
+<img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/add4.jpg')}}" alt="...">
+<div class="card-body">
+    <p style="font-size: large;text-align: center" class="card-title">Cake</p>
+    <div style="text-align: center;">
+        <div class="card-text" style="font-size: medium">Type = Crepe Cake(6)
+        </div>
+
+        <div class="card-text" style="font-size: medium">
+            Size = 3 inches </div>
+        <div class="card-text" style="font-size: medium">Price = 5000kyats</div>
+
+
 
     </div>
-    <h3 style="color: rgb(171,163,9);margin: 10px  10px ;">Chocolate Cake</h3>
-    <div class="row">
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+
+</div>
+
+</div>
+
+    </div>
+    <h3 style="color: rgb(171,163,9);margin: 10px  20px ">Chocolate Cake</h3>
+    <div class="container row">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 8px " src="{{asset('images/ch2.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
@@ -415,7 +475,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/ch3.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
@@ -435,7 +495,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/ch4.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
@@ -455,9 +515,9 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/ch5.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 7px " src="{{asset('images/ch5.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -475,7 +535,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/ch6.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(171,163,9)">
@@ -495,13 +555,33 @@
             </div>
 
         </div>
+         <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
+            <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/ch1.jpg')}}" alt="...">
+            <div class="card-body" style="color: rgb(171,163,9)">
+                <p style="font-size: large;text-align: center" class="card-title">Cake</p>
+                <div style="text-align: center;">
+                    <div class="card-text" style="font-size: medium">Type = Chocolate Cake(6)
+                    </div>
+
+                    <div class="card-text" style="font-size: medium">
+                        Size = 12 inches </div>
+                    <div class="card-text" style="font-size: medium">Price = 15000kyats</div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        
     </div>
-    <h3 id="b" style="color: rgb(171,163,9);margin: 10px 10px ;">Funfetti Cake</h3>
-    <div id="b" class="row">
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+    <h3 id="b" style="color: rgb(171,163,9);margin: 10px 20px ;">Funfetti Cake</h3>
+    <div id="b" class="container row">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 10px " src="{{asset('images/fun1.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 7px " src="{{asset('images/fun1.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -519,7 +599,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/fun2.jpg')}}" alt="...">
             <div class="card-body">
@@ -539,7 +619,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/fun3.jpg')}}" alt="...">
             <div class="card-body">
@@ -559,9 +639,9 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 10px 10px " src="{{asset('images/fun4.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 10px 7px " src="{{asset('images/fun4.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Cake</p>
                 <div style="text-align: center;">
@@ -579,7 +659,7 @@
             </div>
 
         </div>
-        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/fun5.jpg')}}" alt="...">
             <div class="card-body">
@@ -599,14 +679,34 @@
             </div>
 
         </div>
+        <div class="card  border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 20rem;background-color: rgb(1,3,41);">
+
+            <img style="width: 217px;height: 170px;margin: 10px 5px " src="{{asset('images/add3.jpg')}}" alt="...">
+            <div class="card-body">
+                <p style="font-size: large;text-align: center" class="card-title">Cake</p>
+                <div style="text-align: center;">
+                    <div class="card-text" style="font-size: medium">Type = Funfetti Cake(6)
+                    </div>
+
+                    <div class="card-text" style="font-size: medium">
+                        Size = 12 inches </div>
+                    <div class="card-text" style="font-size: medium">Price = 15000kyats</div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
-    <h3 id="a" style ="margin: 10px 10px ;">Novel Book</h3>
-    <div id="a" class="row">
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+    <h3 id="a" style ="margin: 10px 20px;">Novel Book</h3>
+    <div id="a" class="container row">
+        <div class="card border-warning " style="width:16rem;margin:0 10px;font-family: sans-serif;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/comic.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/comic.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
@@ -625,7 +725,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/a1.jpg')}}" alt="...">
             <div class="card-body" >
@@ -667,9 +767,9 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/a2.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/a2.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
@@ -688,7 +788,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/a5.jpg')}}" alt="...">
             <div class="card-body" >
@@ -709,13 +809,34 @@
             </div>
 
         </div>
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+
+<img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/add2.jpg')}}" alt="...">
+<div class="card-body" >
+    <p style="font-size: large;text-align: center" class="card-title">Book</p>
+    <div style="text-align: center;">
+        <div class="card-text" style="font-size: medium">Book Name = Do Nyi Malay believe in Love?
+        </div>
+
+        <div class="card-text" style="font-size: medium">
+            Author = Moe Moe</div>
+        <div class="card-text" style="font-size: medium">Price = 5000kyats</div>
+
+
+
     </div>
 
-    <h3 style ="margin: 10px 10px ;color: rgb(227,112,11)">Cartoon Book</h3>
-    <div class="row">
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/b1.jpg')}}" alt="...">
+</div>
+
+</div>
+    </div>
+
+    <h3 style ="margin: 10px 20px ;color: rgb(227,112,11);">Cartoon Book</h3>
+    <div class="container row">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/b1.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
@@ -734,7 +855,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/b2.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
@@ -755,7 +876,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/b3.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
@@ -776,9 +897,9 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/b4.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/b4.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
@@ -797,7 +918,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/b5.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
@@ -818,10 +939,31 @@
             </div>
 
         </div>
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/b9.jpg')}}" alt="...">
+            <div class="card-body" style="color: rgb(227,112,11)">
+                <p style="font-size: large;text-align: center" class="card-title">Book</p>
+                <div style="text-align: center;">
+                    <div class="card-text" style="font-size: medium">Book Name = U Paw Oo & Hla Taw Thar
+                    </div>
+
+                    <div class="card-text" style="font-size: medium">
+                        Author = Za Veww Min</div>
+                    <div class="card-text" style="font-size: medium">Price = 3000kyats</div>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
     </div>
-    <h3 id="a" style ="margin: 10px  10px ;">Biography Book</h3>
-    <div id="a" class="row">
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+    <h3 id="a" style ="margin: 10px  20px ;">Biography Book</h3>
+    <div id="a" class="container row">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/c1.jpg')}}" alt="...">
             <div class="card-body" >
@@ -842,7 +984,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/biography.jpg')}}" alt="...">
             <div class="card-body" >
@@ -863,7 +1005,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/c2.jpg')}}" alt="...">
             <div class="card-body" >
@@ -884,9 +1026,9 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/c3.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/c3.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
@@ -905,7 +1047,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/c4.jpg')}}" alt="...">
             <div class="card-body">
@@ -929,11 +1071,11 @@
         </div>
 
     </div>
-    <h3  style ="margin: 10px  10px ;color: rgb(227,112,11)">Stories For Children</h3>
-    <div class="row">
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+    <h3  style ="margin: 10px  20px ;color: rgb(227,112,11)">Stories For Children</h3>
+    <div class="container row">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/d1.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/d1.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
@@ -953,7 +1095,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/d2.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
@@ -975,7 +1117,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/d3.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
@@ -997,9 +1139,9 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/d4.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/d4.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
@@ -1019,7 +1161,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/d5.jpg')}}" alt="...">
             <div class="card-body" style="color: rgb(227,112,11)">
@@ -1043,15 +1185,15 @@
         </div>
 
     </div>
-    <h3 id="a" style ="margin: 10px  10px ;">Poem Book</h3>
-    <div id="a" class="row">
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+    <h3 id="a" style ="margin: 10px  20px ;">Poem Book</h3>
+    <div id="a" class="container row">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/e1.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/e1.jpg')}}" alt="...">
             <div  class="card-body" >
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
-                    <div class="card-text" style="font-size: medium">Book Name =S
+                    <div class="card-text" style="font-size: medium">Book Name =Poem(1)
                     </div>
 
                     <div class="card-text" style="font-size: medium">
@@ -1067,13 +1209,13 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/e2.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
-                    <div class="card-text" style="font-size: medium">Book Name =S
+                    <div class="card-text" style="font-size: medium">Book Name =Poem(2)
                     </div>
 
                     <div class="card-text" style="font-size: medium">
@@ -1089,7 +1231,7 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/e3.jpg')}}" alt="...">
             <div class="card-body">
@@ -1111,9 +1253,9 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
-            <img style="width: 217px;height: 170px;margin: 5px 10px" src="{{asset('images/e5.jpg')}}" alt="...">
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/e5.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
@@ -1133,13 +1275,35 @@
             </div>
 
         </div>
-        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:0 5px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
 
             <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/e6.jpg')}}" alt="...">
             <div class="card-body">
                 <p style="font-size: large;text-align: center" class="card-title">Book</p>
                 <div style="text-align: center;">
                     <div class="card-text" style="font-size: medium">Book Name =Happy Clouds
+                    </div>
+
+                    <div class="card-text" style="font-size: medium">
+                        Poet = Sit Nyein</div>
+                    <div class="card-text" style="font-size: medium">Price = 5000kyats</div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="card border-warning " style="width:16rem;font-family: sans-serif;margin:5px 10px;font-size:xx-large;height: 21rem;background-color: rgb(1,3,41);">
+
+            <img style="width: 217px;height: 170px;margin: 5px 7px" src="{{asset('images/e4.jpg')}}" alt="...">
+            <div class="card-body">
+                <p style="font-size: large;text-align: center" class="card-title">Book</p>
+                <div style="text-align: center;">
+                    <div class="card-text" style="font-size: medium">Book Name =Lovely Emily
                     </div>
 
                     <div class="card-text" style="font-size: medium">
